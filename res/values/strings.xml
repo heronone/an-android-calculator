@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mbcalculator</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_number0">0</string>
+    <string name="button_number1">1</string>
+    <string name="button_number2">2</string>
+    <string name="button_number3">3</string>
+    <string name="button_number4">4</string>
+    <string name="button_number5">5</string>
+    <string name="button_number6">6</string>
+    <string name="button_number7">7</string>
+    <string name="button_number8">8</string>
+    <string name="button_number9">9</string>
+    <string name="button_operator_divide">/</string>
+    <string name="button_operator_multiply">*</string>
+    <string name="button_operator_reduce">-</string>
+    <string name="button_operator_add">+</string>
+    <string name="button_operator_equal">=</string>
+    <string name="button_operator_left_bracket">(</string>
+    <string name="button_operator_right_bracket">)</string>
+    <string name="button_operator_point">.</string>
+    <string name="button_operator_backspace">←</string>
+    <string name="button_operator_clear">CE</string>
+    <string name="showText">0</string>
+    <string name="title_activity_anothor">AnothorActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_operator_more">></string>
+    <string name="button_operator_sin">sin</string>
+    <string name="button_operator_cos">cos</string>
+    <string name="button_operator_tan">tan</string>
+    <string name="button_operator_sqrt">√</string>
+    <string name="button_operator_ln">ln</string>
+    <string name="button_operator_lg">lg</string>
+    <string name="button_operator_pow">^</string>
+    <string name="button_operator_pi">π</string>
+    <string name="button_operator_e">e</string>
+    <string name="button_operator_factorial">!</string>
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/operator_sin"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_sin" />
+        
+        <Button
+            android:id="@+id/operator_cos"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_cos" />
+        
+        <Button
+            android:id="@+id/operator_tan"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_tan" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/operator_left_bracket"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_left_bracket" />
+
+        <Button
+            android:id="@+id/operator_right_bracket"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_right_bracket" />
+        
+        <Button
+            android:id="@+id/operator_sqrt"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_sqrt" />
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/operator_ln"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_ln" />
+        
+        <Button
+            android:id="@+id/operator_lg"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_lg" />
+        
+        <Button
+            android:id="@+id/operator_pow"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_pow" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/operator_pi"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_pi" />
+        
+        <Button
+            android:id="@+id/operator_e"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/button_operator_e" />
+        
+        <Button
+            android:id="@+id/operator_equal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/button_operator_equal" />
+    </LinearLayout>
+
+</LinearLayout>
